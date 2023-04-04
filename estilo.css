@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body
+        {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            margin: 0%;
+            background-color: rgb(72, 14, 80);
+        }
+
+        .tabuleiro
+        {
+            width: 600px;
+            height: 600px;
+            background-image: linear-gradient(45deg,blue, red );
+            border-style:solid;
+            border-color: black; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .quadrado
+        {
+            width: 100%;
+            height: 150px;
+            display: flex;
+            flex-direction: row;   /*direção linha ou coluna*/
+            justify-content: space-around;  /*mesma distancia*/
+        }
+        .celula
+        {
+            cursor: pointer;
+            font-family: 'Lora', serif;
+            width: 150px;
+            height: 150px;
+            background-color: aliceblue;
+            box-shadow: 2px 2px black;
+            font-size: 120px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+        }
