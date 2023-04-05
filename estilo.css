@@ -51,3 +51,20 @@ body
             align-items: center;
             align-content: center;
         }
+        .titulo
+        {
+            font-size: 60px;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color: rgb(99, 33, 161);
+            width: 350px;
+            text-align: center;
+            margin-bottom: 25px; /*distancia entre as DIVs*/
+            cursor: pointer;
+
+        }
+        
+        .titulo:hover
+        {
+            background-color: rgb(67, 6, 92);
+        }
